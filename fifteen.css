@@ -1,0 +1,33 @@
+/*
+ * Darren Hou
+ */
+
+body, button {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 400px;
+}
+
+#puzzlearea > .piece {
+	background: url(background.jpg);
+	border: 5px solid black;
+	height: 90px;
+
+	font-size: 40px;
+	position: absolute;
+	width: 90px;
+}
+
+#puzzlearea > .movable:hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
